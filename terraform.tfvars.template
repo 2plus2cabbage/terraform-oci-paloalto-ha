@@ -1,0 +1,13 @@
+tenancy_ocid                    = "<your-tenancy-ocid>"                                                                              # OCI tenancy OCID, found in OCI Console under Profile
+user_ocid                       = "<your-user-ocid>"                                                                                 # OCI user OCID, found in OCI Console under Profile
+fingerprint                     = "<your-fingerprint>"                                                                               # Fingerprint of the API key, found in OCI Console under Profile > API Keys
+private_key_path                = "<path-to-private-key>"                                                                            # Path to the private key file for the API key
+compartment_ocid                = "<your-compartment-id>"                                                                            # OCI compartment ID, found in OCI Console under Identity > Compartments
+compartment_name                = "<your-compartment-name>"                                                                          # Name of the compartment (Sandbox)
+region                          = "<your-region>"                                                                                    # OCI region for deployment (e.g., us-ashburn-1)
+environment_name                = "<your-environment-name>"                                                                          # Name for your environment, used in resource naming (e.g., cabbage)
+location                        = "<your-location>"                                                                                  # Location identifier, used in resource naming (e.g., usashburn)
+my_public_ip                    = "<your-public-ip>"                                                                                 # Your public IP for RDP, SSL, and SSH access (e.g., 203.0.113.5/32)
+firewall_image_ocid             = "ocid1.image.oc1..aaaaaaaaxogvlz2ozyvsbrrbcoocrquinzv6nijk4mktgkvmoa6d36jpuqhq"                    # OCID of the Palo Alto Networks VM-Series image from the OCI Marketplace
+windows_image_ocid              = "ocid1.image.oc1.iad.aaaaaaaab4ql4h3nbubj6sapv526y6cnteiglv7vffesqujwd6uszjwyrzlq"                 # OCID of the Windows Server 2022 image from windows.tf
+ssh_public_key                  = "<your-ssh-public-key>"                                                                            # SSH public key for firewall admin user login (e.g., ssh-rsa AAAAB3NzaC1yc2E...)
