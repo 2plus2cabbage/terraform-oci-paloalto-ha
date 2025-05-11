@@ -64,7 +64,7 @@ The project is organized into multiple files to promote modularity, keeping dist
 1. Reset the trust subnet route table to default in the OCI Console: Navigate to **Networking > Virtual Cloud Networks > [your VCN] > Subnets > [trust subnet] > Edit**, set the route table to the VCN’s default route table, and save changes.
 2. Run `terraform destroy` to remove all resources (type `yes`).
 
-## Potential Costs and Licensing
-- Resources deployed using this Terraform configuration may incur costs depending on usage duration and OCI pricing.
-- Familiarize yourself with OCI's billing structure, trial periods, and potential costs associated with compute, networking, and storage resources.
-- You are responsible for any applicable software licensing (e.g., Palo Alto firewall) or other charges that may arise from the deployment and usage of these resources.
+## Potential costs and licensing
+- The resources deployed using this Terraform configuration should generally incur minimal to no costs, provided they are terminated promptly after creation.
+- It is important to fully understand your cloud provider's billing structure, trial periods, and any potential costs associated with the deployment of resources in public cloud environments.
+- You are also responsible for any applicable software licensing or other charges that may arise from the deployment and usage of these resources.
